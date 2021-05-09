@@ -1,0 +1,23 @@
+{
+    "name": "arturdoruch/exception-formatter",
+    "description": "Flattens the exception and formats properties such as class, file with line, and the stack trace to HTML or any other format.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Doruch",
+            "email": "arturdoruch@interia.pl"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArturDoruch\\ExceptionFormatter\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
